@@ -1,0 +1,17 @@
+{
+  "name": "_s",
+  "version": "1.0.0",
+  "homepage": "https://github.com/teamwebmachine/_s",
+  "authors": [
+    "Christopher Mosure <cj@webmachine.io>"
+  ],
+  "description": "Underscores theme with gulp",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap-sass": "~3.3.4"
+  }
+}
