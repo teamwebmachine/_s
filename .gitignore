@@ -1,1 +1,4 @@
+# Node Dependencies
 node_modules
+# bower packages, optional, you don't want to use this if you can't run gulp on your production environment
+assets/vendor

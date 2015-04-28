@@ -17,14 +17,14 @@ gulp.task('styles', function() {
     .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
     .pipe(rename('style.css'))
     .pipe(gulp.dest('css/'))
-    .pipe(notify({ message: 'Styles are good to go...' }));
+    .pipe(notify({ message: 'SASS compiled quite nicely...' }));
 });
 
 gulp.task('watch', function() {
   gulp.watch('sass/**', ['styles']);
 });
 
-gulp.task('default', ['watch', 'styles']);
+gulp.task('default', ['styles']);
 
 function errorHandler (error) {
   console.log(error.toString());
